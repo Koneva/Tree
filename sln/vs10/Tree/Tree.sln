@@ -5,11 +5,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tree_lib", "tree_lib\tree_lib.vcxproj", "{514250BF-9FEA-425D-A597-627F35F2DEE2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_sort", "sample_sort\sample_sort.vcxproj", "{E2641521-044F-4A21-8253-911E9DEB5D7B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_tree", "sample_tree\sample_tree.vcxproj", "{794AF58E-3442-4CBC-BC45-75D306FD30B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_heap", "sample_tree\sample_tree.vcxproj", "{794AF58E-3442-4CBC-BC45-75D306FD30B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{514250BF-9FEA-425D-A597-627F35F2DEE2} = {514250BF-9FEA-425D-A597-627F35F2DEE2}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{AF0FFB4E-1B1C-44E4-8076-712F3C4B2506}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63BCA17E-ECF4-469F-80B0-AEC37F88701F} = {63BCA17E-ECF4-469F-80B0-AEC37F88701F}
+		{514250BF-9FEA-425D-A597-627F35F2DEE2} = {514250BF-9FEA-425D-A597-627F35F2DEE2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +30,6 @@ Global
 		{514250BF-9FEA-425D-A597-627F35F2DEE2}.Debug|Win32.Build.0 = Debug|Win32
 		{514250BF-9FEA-425D-A597-627F35F2DEE2}.Release|Win32.ActiveCfg = Release|Win32
 		{514250BF-9FEA-425D-A597-627F35F2DEE2}.Release|Win32.Build.0 = Release|Win32
-		{E2641521-044F-4A21-8253-911E9DEB5D7B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E2641521-044F-4A21-8253-911E9DEB5D7B}.Debug|Win32.Build.0 = Debug|Win32
-		{E2641521-044F-4A21-8253-911E9DEB5D7B}.Release|Win32.ActiveCfg = Release|Win32
-		{E2641521-044F-4A21-8253-911E9DEB5D7B}.Release|Win32.Build.0 = Release|Win32
 		{794AF58E-3442-4CBC-BC45-75D306FD30B3}.Debug|Win32.ActiveCfg = Debug|Win32
 		{794AF58E-3442-4CBC-BC45-75D306FD30B3}.Debug|Win32.Build.0 = Debug|Win32
 		{794AF58E-3442-4CBC-BC45-75D306FD30B3}.Release|Win32.ActiveCfg = Release|Win32

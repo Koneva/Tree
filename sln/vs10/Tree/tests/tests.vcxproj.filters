@@ -10,9 +10,6 @@
     <ClCompile Include="..\..\..\..\test\test_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\test\test_sort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\test\test_heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

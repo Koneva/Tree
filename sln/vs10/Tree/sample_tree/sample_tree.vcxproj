@@ -17,6 +17,7 @@
     <ProjectGuid>{794AF58E-3442-4CBC-BC45-75D306FD30B3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>sample_tree</RootNamespace>
+    <ProjectName>sample_heap</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

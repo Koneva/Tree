@@ -1,5 +1,5 @@
-﻿Build started 26.02.2016 11:26:08.
-     1>Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\gtest\gtest.vcxproj" on node 5 (rebuild target(s)).
+﻿Build started 26.02.2016 11:46:02.
+     1>Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\gtest\gtest.vcxproj" on node 3 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\gtest.lastbuildstate".
        InitializeBuildStatus:
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:11.51
+Time Elapsed 00:00:10.33

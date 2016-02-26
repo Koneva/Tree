@@ -73,11 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\include\heap.hpp" />
-    <ClInclude Include="..\..\..\..\include\sort.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\heap.cpp" />
-    <ClCompile Include="..\..\..\..\src\sort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

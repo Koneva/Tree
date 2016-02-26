@@ -1,0 +1,20 @@
+﻿Build started 26.02.2016 11:46:02.
+     1>Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\tree_lib\tree_lib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\tree_lib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\tree_lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         F:\Prog\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\src\heap.cpp
+         heap.cpp
+       Lib:
+         F:\Prog\VC\bin\Lib.exe /OUT:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\tree_lib.lib" /NOLOGO Debug\heap.obj
+         tree_lib.vcxproj -> F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\tree_lib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\tree_lib.unsuccessfulbuild".
+         Touching "Debug\tree_lib.lastbuildstate".
+     1>Done Building Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\tree_lib\tree_lib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.76

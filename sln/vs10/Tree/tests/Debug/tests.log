@@ -1,0 +1,25 @@
+﻿Build started 26.02.2016 11:26:11.
+     1>Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\tests\tests.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\tests.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\tests.unsuccessfulbuild".
+       ClCompile:
+         F:\Prog\VC\bin\CL.exe /c /I..\..\..\..\include /I..\..\..\..\gtest /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\test\test_heap.cpp ..\..\..\..\test\test_main.cpp ..\..\..\..\test\test_sort.cpp
+         test_sort.cpp
+         test_main.cpp
+         test_heap.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\tests.exe.embed.manifest.res" Debug\tests_manifest.rc 
+       Link:
+         F:\Prog\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\tests.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug gtest.lib tree_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\tests.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\tests.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\tests.lib" /MACHINE:X86 Debug\tests.exe.embed.manifest.res
+         Debug\test_heap.obj
+         Debug\test_main.obj
+         Debug\test_sort.obj
+     1>LINK : fatal error LNK1104: cannot open file 'gtest.lib'
+     1>Done Building Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\tests\tests.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.05

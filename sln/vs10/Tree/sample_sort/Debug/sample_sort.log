@@ -1,0 +1,30 @@
+﻿Build started 26.02.2016 11:26:08.
+     1>Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\sample_sort\sample_sort.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\sample_sort.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\sample_sort.unsuccessfulbuild".
+       ClCompile:
+         F:\Prog\VC\bin\CL.exe /c /I..\..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\sample\sample_sort.cpp
+         sample_sort.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\sample_sort.exe.embed.manifest.res" Debug\sample_sort_manifest.rc 
+       Link:
+         F:\Prog\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug tree_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sample_sort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.lib" /MACHINE:X86 Debug\sample_sort.exe.embed.manifest.res
+         Debug\sample_sort.obj
+       Manifest:
+         Deleting file "Debug\sample_sort.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\sample_sort.exe.embed.manifest" /manifest Debug\sample_sort.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\sample_sort.exe.embed.manifest.res" Debug\sample_sort_manifest.rc 
+       LinkEmbedManifest:
+         F:\Prog\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug tree_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sample_sort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.lib" /MACHINE:X86 Debug\sample_sort.exe.embed.manifest.res
+         Debug\sample_sort.obj
+         sample_sort.vcxproj -> F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\Debug\sample_sort.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\sample_sort.unsuccessfulbuild".
+         Touching "Debug\sample_sort.lastbuildstate".
+     1>Done Building Project "F:\Inf\sashka einstein\education\asd\Tree\sln\vs10\Tree\sample_sort\sample_sort.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.92
